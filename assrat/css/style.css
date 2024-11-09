@@ -66,8 +66,15 @@ body{
 }
 .text{
     color: #343F52;
+    font-size: 40px;
+    font-weight: 700;
     display: flex;
     justify-content: center;
+}
+.text-2{
+    color: #343F52;
+    font-size: 40px;
+    font-weight: 700;
 }
 .course-box{
     width: 170px;
@@ -111,11 +118,46 @@ body{
     height: 100%;
     /* object-fit: cover; */
   }
-  .fecultu-img{
+  .feculty-img{
     width: 307px;
     height: 400px;
     border: var(--bor);
   }
+  .feculty-img img{
+    width: 307px;
+    height: 400px;
+    border: var(--bor);
+  }
+  
+  .berlin{
+    width: 307px;
+    height: 200px;
+    border: var(--bor);
+    position: relative;
+    top: -200px;
+    background-color: #02385a83;
+  }
+
+  .promis-img{
+    width: 425px;
+    height: 296px;
+    border: var(--bor);
+    border-radius: 10px;
+  }
+ .text-3{
+    font-size: 20px;
+ }
+ .text-4{
+    
+    width: 300px;
+    height: 300px;
+    border: var(--bor);
+    margin-left: 10px;
+ }
+ .text-5{
+display: flex;
+
+ }
 @media (width <=500px) {
    
     
