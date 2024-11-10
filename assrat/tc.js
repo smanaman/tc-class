@@ -24,4 +24,13 @@ count(0, counter[j], j);
 }
 });
 
+// loder java script
 
+window.onload = (event) => {
+ document.getElementById("home-page").style.display='none'
+ setTimeout(() => {
+    document.getElementById("home-page").style.display='block' 
+    document.getElementById("loder").style.display='none'
+
+ }, 6000);
+  };
