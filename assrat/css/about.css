@@ -1,0 +1,27 @@
+
+h1{
+    text-align: center;
+    border-bottom:3px solid  black;
+    color:#02395A ;
+    font-weight: 700;
+}
+.result{
+    width: 600px;
+    height: 400px;
+}
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    background-color: black;
+    color: white;
+}
+@media (width<=500px) {
+    .result{
+        width: 300px;
+        height: 250px;
+    }
+}

@@ -6,21 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap Demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assrat/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 
@@ -34,70 +33,89 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 </div>
 
 </div>
-<div class="container-fluid" id="home-page">
+  <div class="container-fluid" id="home-page">
 
 
-  <div class="container  bor">
-    <div class="row">
-      <div class="col-4 bor"></div>
-      <div class="col-8 bor d-flex justify-content-end  p-0">
-        <div class="col-2 bor"></div>
-        <div class="col-2 bor"></div>
-        <div class="col-2 bor"></div>
-        <div class="col-2 bor"></div>
+    <div class="container  bor">
+      <div class="row">
+        <div class="col-2 bor d-flex justify-content-center"><img src="./assrat/img/images-removebg-preview (20).png"
+            alt="" width="70px" height="70px"></div>
+        <div class="col-10 bor d-flex justify-content-end  p-0">
+          <div class="col-4 col-sm-2 bor  d-flex justify-content-center align-items-center"><button
+              style="font-size: 20px;" class="btn btn-light hamburger" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i
+                class="fa-solid fa-bars"></i></button>
+
+            <div class=" offcanvas offcanvas-start  w-75" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+              id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">MENU</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <p class="mo" style="text-align: center;"  >Home</p>
+                <p class="mo" style="text-align: center;"  >contect</p>
+                <p class="mo" style="text-align: center;"    ><a href="./about.html">About</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 manu bor">Home</div>
+          <div class="col-2 manu bor">contect</div>
+       <div class="col-2 manu  bor">  <a class="a" href="./about.html"> About</a></div>
+
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="container-fluid border m-0 p-0 mt-4 ">
+    <div class="container-fluid border m-0 p-0 mt-4 ">
 
-    <!-- Swiper -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="./assrat/img/tc-img.jpg" alt="" width="100%" height="100%"></div>
-        <div class="swiper-slide"><img src="./assrat/img/tc-img.jpg" alt="" width="100%" height="100%"></div>
-        <div class="swiper-slide"><img src="./assrat/img/tc-img.jpg" alt="" width="100%" height="100%"></div>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./assrat/img/tc-img.jpg" alt="" width="100%" height="100%"></div>
+          <div class="swiper-slide spacial"><img src="./assrat/img/slide2.jpg" alt="" width="100%" height="100%"></div>
+          <div class="swiper-slide spacial"><img src="./assrat/img/slider3.jpg" alt="" width="100%" height="100%"></div>
 
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
     </div>
+    <!-- counter -->
+    <div class="container-fluid conten-color">
+      <div class="container only mt-3">
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-
-  </div>
-  <!-- counter -->
-  <div class="container-fluid conten-color">
-    <div class="container only mt-3">
-
-      <div class="row mt-3 ">
-        <div class="col-12 col-sm-6 col-md-4 counter">
-          <div class="counter-icon"> <i class="fa-solid fa-user"></i></div>
-          <div class="counter-big-text">
-            <p style="margin-top: 16px;">+</p>
-            <div class="count">5000</div>
+        <div class="row mt-3 ">
+          <div class="col-12 col-sm-6 col-md-4 counter">
+            <div class="counter-icon"> <i class="fa-solid fa-user"></i></div>
+            <div class="counter-big-text">
+              <p style="margin-top: 16px;">+</p>
+              <div class="count">5000</div>
+            </div>
+            <div class="counter-small-text">Students Trained</div>
           </div>
-          <div class="counter-small-text">Students Trained</div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 counter">
-          <div class="counter-icon"> <i class="fa-solid fa-user"></i></div>
-          <div class="counter-big-text">
-            <p style="margin-top: 16px;">+</p>
-            <div class="count">600</div>
+          <div class="col-12 col-sm-6 col-md-4 counter">
+            <div class="counter-icon"> <i class="fa-solid fa-user"></i></div>
+            <div class="counter-big-text">
+              <p style="margin-top: 16px;">+</p>
+              <div class="count">600</div>
+            </div>
+            <div class="counter-small-text">current Students</div>
           </div>
-          <div class="counter-small-text">current Students</div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 counter">
-          <div class="counter-icon"> <i class="fa-solid fa-address-book"></i></div>
-          <div class="counter-big-text">
-            <p style="margin-top: 16px;">+</p>
-            <div class="count">15</div>
+          <div class="col-12 col-sm-6 col-md-4 counter">
+            <div class="counter-icon"> <i class="fa-solid fa-address-book"></i></div>
+            <div class="counter-big-text">
+              <p style="margin-top: 16px;">+</p>
+              <div class="count">15</div>
+            </div>
+            <div class="counter-small-text">Our Experience</div>
           </div>
-          <div class="counter-small-text">Our Experience</div>
-        </div>
-        <!-- <div class="col-12 col-sm-6 col-md-3  counter">
+          <!-- <div class="col-12 col-sm-6 col-md-3  counter">
           <div class="counter-icon"> <i class="fa-solid fa-percent"></i></div>
           <div class="counter-big-text">
             <div class="count">98</div>
@@ -105,191 +123,210 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
           </div>
           <div class="counter-small-text"> our percentage</div>
         </div> -->
-      </div>
+        </div>
 
 
 
-    </div>
-  </div>
-
-
-  <div class="container bormid mt-5 ">
-
-    <div class="row">
-      <div class="col-12 ">
-        <h1 class="text">Our Profession</h1>
       </div>
     </div>
 
 
-    <div class="row gy-5 mt-4">
-      <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-        <div class="course-box">
-          <div class="course-icon"><i class="fa-solid fa-book-open-reader"></i></div>
-          <div class="course-text">1<sup>th</sup> to 12<sup>th</sup><br> All std tuition </div>
+    <div class="container bormid mt-5 ">
+
+      <div class="row">
+        <div class="col-12 ">
+          <h1 class="text">Our Profession</h1>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
-        <div class="course-box">
-          <div class="course-icon"><i class="fa-solid fa-book"></i></div>
-          <div class="course-text">11<sup>th</sup> to 12<sup>th</sup>
-            commerce</div>
+
+
+      <div class="row gy-5 mt-4">
+        <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+          <div class="course-box">
+            <div class="course-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+            <div class="course-text">1<sup>th</sup> to 12<sup>th</sup><br> All std tuition </div>
+          </div>
         </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
-        <div class="course-box">
-          <div class="course-icon"><i class="fa-solid fa-flask-vial"></i></div>
-          <div class="course-text">8<sup>th</sup> to 10 <sup>th</sup><br>science</div>
+        <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
+          <div class="course-box">
+            <div class="course-icon"><i class="fa-solid fa-book"></i></div>
+            <div class="course-text">11<sup>th</sup> to 12<sup>th</sup>
+              commerce</div>
+          </div>
         </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
-        <div class="course-box">
-          <div class="course-icon"><i class="fa-solid fa-calculator"></i></div>
-          <div class="course-text">1<sup>th</sup> to 12<sup>th</sup><br> mathematics</div>
+        <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
+          <div class="course-box">
+            <div class="course-icon"><i class="fa-solid fa-flask-vial"></i></div>
+            <div class="course-text">8<sup>th</sup> to 10 <sup>th</sup><br>science</div>
+          </div>
         </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
-        <div class="course-box">
-          <div class="course-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-          <div class="course-text">1<sup>th</sup> to 8<sup>th</sup><br> navodaya class</div>
+        <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
+          <div class="course-box">
+            <div class="course-icon"><i class="fa-solid fa-calculator"></i></div>
+            <div class="course-text">1<sup>th</sup> to 12<sup>th</sup><br> mathematics</div>
+          </div>
         </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
-        <div class="course-box">
-          <div class="course-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
-          <div class="course-text">10 <sup>th</sup> to 12<sup>th</sup><br> special board preparation </div>
+        <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
+          <div class="course-box">
+            <div class="course-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="course-text">1<sup>th</sup> to 8<sup>th</sup><br> navodaya class</div>
+          </div>
         </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
-        <div class="course-box">
-          <div class="course-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
-          <div class="course-text">11<sup>th</sup> to 12<sup>th</sup><br>Account </div>
+        <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
+          <div class="course-box">
+            <div class="course-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <div class="course-text">10 <sup>th</sup> to 12<sup>th</sup><br> special board preparation </div>
+          </div>
         </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
-        <div class="course-box">
-          <div class="course-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
-          <div class="course-text">10 to 12 Year Up
-            experience faculties </div>
+        <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
+          <div class="course-box">
+            <div class="course-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+            <div class="course-text">11<sup>th</sup> to 12<sup>th</sup><br>Account </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3  d-flex justify-content-center">
+          <div class="course-box">
+            <div class="course-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+            <div class="course-text">10 to 12 Year Up
+              experience faculties </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
 
 
-  <div class="container boreder mt-5 ">
-    <div class="row">
-      <div class="col-12 d-flex justify-content-center mt-5">
-        <h2 class="text-2">Our faculties</h2>
-      </div>
-    </div>
-    <div class="row bormid mt-5">
-      <div class="col-12 col-sm-6 col-md-4  bormid d-flex justify-content-center">
-        <div class="feculty-img">
-          <img src="https://i.pinimg.com/564x/04/ff/aa/04ffaa365f3d41f70680fd19be55597d.jpg" alt="" width="100%"
-            height="100%">
-          <div class="berlin"></div>
+    <div class="container boreder mt-5 ">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center mt-5">
+          <h2 class="text-2">Our faculties</h2>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-4 bormid d-flex justify-content-center">
-        <div class="feculty-img"><img src="https://i.pinimg.com/564x/04/ff/aa/04ffaa365f3d41f70680fd19be55597d.jpg"
-            alt="" width="100%" height="100%">
-          <div class="berlin"></div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 bormid d-flex justify-content-center">
-        <div class="feculty-img"><img src="https://i.pinimg.com/564x/04/ff/aa/04ffaa365f3d41f70680fd19be55597d.jpg"
-            alt="" width="100%" height="100%">
-          <div class="berlin"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-<div class="container bormid mt-5">
-<div class="row mt-5">
-  <div class="col-12 col-lg-5 bormid p-0 m-0 d-flex justify-content-center align-items-center student-img">
-<div class="img-for-student"><img src="./assrat/img/tarade-img-2.jpg" alt="" width="100%" height="100%"></div>
-</div>
-<div class="col-12 col-lg-7">
- <h2 class="Legacy-text"><span style="color: #E31E25;">Legacy </span>of <span style="color: #E31E25;">100% Trust</span> with Students <br> & Parents</h2> 
-<div class="ruls-text">
-
-          <div class="ruls-text-2">
-            <div class="right">
-              <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
-              <div class="arrow-text">Growth Mindset Culture.</div>
-            </div> 
-
-             <div class="right">
-              <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
-              <div class="arrow-text">Monthly Parents FeedBack.</div>
-            </div>
-            <div class="right">
-              <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
-              <div class="arrow-text">Parents Meeting.</div>
-            </div>
-            <div class="right">
-              <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
-              <div class="arrow-text">Social Student Support.</div>
+      <div class="row bormid mt-5">
+        <div class="col-12 col-sm-6 col-md-4  bormid d-flex justify-content-center mt-3">
+          <div class="feculty-img">
+            <img src="./assrat/img/eacher.jpg" alt="" width="100%"
+              height="100%">
+            <div class="berlin">
+              <p class="teacher-name">Abbas sir</p>
+              <p class="teacher-summery">subject is Maths <br> with +15 Year experience</p>
+              <div class="contect"><a href="tel:9574503240"><div class="con"><i class="fa-solid fa-phone"></i></div></a></div>
             </div>
           </div>
-          <div class="ruls-text-2">
-            <div class="right">
-              <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
-              <div class="arrow-text">Weekly Test.</div>
-            </div>
-
-            <div class="right">
-              <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
-              <div class="arrow-text">Monthly Test.</div>
-            </div>
-            <div class="right">
-              <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
-              <div class="arrow-text">supportive Teacher.</div>
-            </div>
-            <div class="right">
-              <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
-              <div class="arrow-text">Weekly Lecture Revision.</div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 bormid d-flex justify-content-center mt-3">
+          <div class="feculty-img"><img src="./assrat/img/teacher3.jpg"
+              alt="" width="100%" height="100%">
+            <div class="berlin">
+              <p class="teacher-name">Ajay sir</p>
+              <p class="teacher-summery">subject is English <br> with +28 Year experience</p>
+              <div class="contect"><a href="tel:9574503240"><div class="con"><i class="fa-solid fa-phone"></i></div></a></div>
             </div>
           </div>
-
-        </div> 
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 bormid d-flex justify-content-center mt-3">
+          <div class="feculty-img"><img src="./assrat/img/teacher2.jpg"
+              alt="" width="100%" height="100%">
+            <div class="berlin">
+              <p class="teacher-name">Riyaz sir</p>
+              <p class="teacher-summery">subject is science <br> with +17 Year experience</p>
+              <div class="contect"><a href="tel:9574503240"><div class="con"><i class="fa-solid fa-phone"></i></div></a></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-      </div>
-
-  <div class="container mt-5">
-    <div class="row mt-5">
-      <div class="col-12 d-flex justify-content-center result-show" >Look our future starts</div>
 
 
-      <div class="col-12">
-      <!-- <div class="result"><img src="./assrat/img/WhatsApp Image 2024-11-04 at 21.50.15_6b3369f6.jpg" alt="" width="100%"></div> -->
+    <div class="container bormid mt-5">
+      <div class="row mt-5">
+        <div class="col-12 col-lg-5 bormid p-0 m-0 d-flex justify-content-center align-items-center student-img">
+          <div class="img-for-student"><img src="./assrat/img/tarade-img-2.jpg" alt="" width="100%" height="100%"></div>
+        </div>
+        <div class="col-12 col-lg-7">
+          <h2 class="Legacy-text"><span style="color: #E31E25;">Legacy </span>of <span style="color: #E31E25;">100%
+              Trust</span> with Students <br> & Parents</h2>
+          <div class="ruls-text">
+
+            <div class="ruls-text-2">
+              <div class="right">
+                <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
+                <div class="arrow-text">Growth Mindset Culture.</div>
+              </div>
+
+              <div class="right">
+                <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
+                <div class="arrow-text">Monthly Parents FeedBack.</div>
+              </div>
+              <div class="right">
+                <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
+                <div class="arrow-text">Parents Meeting.</div>
+              </div>
+              <div class="right">
+                <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
+                <div class="arrow-text">Social Student Support.</div>
+              </div>
+            </div>
+            <div class="ruls-text-2">
+              <div class="right">
+                <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
+                <div class="arrow-text">Weekly Test.</div>
+              </div>
+
+              <div class="right">
+                <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
+                <div class="arrow-text">Monthly Test.</div>
+              </div>
+              <div class="right">
+                <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
+                <div class="arrow-text">supportive Teacher.</div>
+              </div>
+              <div class="right">
+                <div class="arrow"><i style="margin-top: 4px;" class="fa-solid fa-circle-check"></i></div>
+                <div class="arrow-text">Weekly Lecture Revision.</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+
+    <div class="container mt-5">
+      <div class="row mt-5">
+        <div class="col-12 d-flex justify-content-center result-show">Look our future starts</div>
 
 
-  <div class="container">
-    
-<div class="row">
-  <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image" src="./assrat/img/WhatsApp Image 2024-11-04 at 19.51.08_27cd31a7.jpg" alt="" width="100%"></div>
-  <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image" src="./assrat/img/WhatsApp Image 2024-11-04 at 19.52.37_3872790a.jpg" alt="" width="100%"></div>
-  <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image" src="./assrat/img/WhatsApp Image 2024-11-04 at 19.52.37_1506e730.jpg" alt="" width="100%"></div>
-  <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image" src="./assrat/img/WhatsApp Image 2024-11-04 at 19.54.36_8d1b6aa6.jpg" alt="" width="100%"></div>
-  <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image" src="./assrat/img/WhatsApp Image 2024-11-05 at 11.57.19_93b3ac33.jpg" alt="" width="100%"></div>
-  <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image" src="./assrat/img/WhatsApp Image 2024-11-04 at 19.53.37_d4e80331.jpg" alt="" width="100%"></div>
-</div>
+        <div class="col-12">
+          <!-- <div class="result"><img src="./assrat/img/WhatsApp Image 2024-11-04 at 21.50.15_6b3369f6.jpg" alt="" width="100%"></div> -->
+        </div>
+      </div>
+    </div>
 
-  </div>
 
-  <script src="./assrat/tc.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image"
+            src="./assrat/img/WhatsApp Image 2024-11-04 at 19.51.08_27cd31a7.jpg" alt="" width="100%"></div>
+        <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image"
+            src="./assrat/img/WhatsApp Image 2024-11-04 at 19.52.37_3872790a.jpg" alt="" width="100%"></div>
+        <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image"
+            src="./assrat/img/WhatsApp Image 2024-11-04 at 19.52.37_1506e730.jpg" alt="" width="100%"></div>
+        <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image"
+            src="./assrat/img/WhatsApp Image 2024-11-04 at 19.54.36_8d1b6aa6.jpg" alt="" width="100%"></div>
+        <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image"
+            src="./assrat/img/WhatsApp Image 2024-11-05 at 11.57.19_93b3ac33.jpg" alt="" width="100%"></div>
+        <div class="col-12 col-md-4 last-section gy-3 gx-3"><img class="grayscale-image"
+            src="./assrat/img/WhatsApp Image 2024-11-04 at 19.53.37_d4e80331.jpg" alt="" width="100%"></div>
+      </div>
+
+    </div>
+
+    <script src="./assrat/tc.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
   </div>
 
 </body>
